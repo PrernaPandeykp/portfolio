@@ -1,15 +1,13 @@
 import React from "react";
-import { useState } from "react";
-import { Link } from "react-router-dom";
+
 import Internships from "./Internships";
 import Projects from "./Projects";
 import Skills from "./Skills";
 import { projects, skills, internships } from "./constants";
 import prerna from "./images/prerna.jpg";
-import dummy from "./images/dummyGirl.png";
 
 function Home() {
-  const [activeSection, setActiveSection] = useState(null);
+  // const [activeSection, setActiveSection] = useState(null);
   //   let colors = ["bg-red", "bg-green", "bg-blue", "bg-yellow", "bg-purple"];
   // let i = 0;
   // setInterval(function() {
@@ -19,13 +17,13 @@ function Home() {
   //     i = 0;
   //   }
   // }, 1000);
-  const showSection = (sectionName) => {
-    setActiveSection(sectionName);
-  };
+  // const showSection = (sectionName) => {
+  //   setActiveSection(sectionName);
+  // };
 
-  const isSectionActive = (sectionName) => {
-    return activeSection === sectionName;
-  };
+  // const isSectionActive = (sectionName) => {
+  //   return activeSection === sectionName;
+  // };
   // constructor(props) {
   //   super(props);
   //   this.state = {
@@ -65,7 +63,7 @@ function Home() {
         <section class=" text-gray-600 body-font">
           <div class="sticky top-0 container px-auto py-6 mx-auto flex flex-wrap flex-col">
             <div class="flex mx-auto flex-wrap mb-20">
-              <button onClick={() => showSection("home")}>
+              <button >
                 <a
                   href="#home"
                   class="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium bg-gray-100 inline-flex items-center leading-none border-indigo-500 text-indigo-500 tracking-wider rounded-t"
@@ -84,7 +82,7 @@ function Home() {
                   Home
                 </a>
               </button>
-              <button onClick={() => showSection("projects")}>
+              <button>
                 <a
                   href="#projects"
                   class="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none border-gray-200 hover:text-gray-900 tracking-wider"
@@ -103,7 +101,7 @@ function Home() {
                   Projects
                 </a>
               </button>
-              <button onClick={() => showSection("skills")}>
+              <button>
                 <a
                   href="#skills"
                   class="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none border-gray-200 hover:text-gray-900 tracking-wider"
@@ -122,7 +120,7 @@ function Home() {
                   Skills
                 </a>
               </button>
-              <button onClick={() => showSection("internships")}>
+              <button>
                 <a
                   href="#internships"
                   class="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none border-gray-200 hover:text-gray-900 tracking-wider"
@@ -267,14 +265,14 @@ function Home() {
 
 export default Home;
 
-{
+
   /* {section === 'section1' && <div>
           <h2>Skills</h2>
                   <ul></ul>
                   </div>} 
         
         {section === 'section2' &&  */
-}
+
 // <>
 // {this.state.projectsVisible && (
 //   <div>
@@ -282,12 +280,10 @@ export default Home;
 //   </div>
 // )}
 
-{
   /*         
         {section === 'section1' && <Section1 />} 
       {section === 'section2' && <Section2 />} 
       {section === 'section3' && <Section3 />}  */
-}
 
 // function Section1() {
 //   return <div>Section 1 is enabled</div>;

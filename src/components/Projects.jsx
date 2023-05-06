@@ -1,8 +1,5 @@
 import React from "react";
 
-// import projects from './Home.jsx';
-// console.log(projects.name);
-
 function Projects(props) {
     const {projects} =props;
       // const projectList = this.props.projects.map((project, index) =>  (
