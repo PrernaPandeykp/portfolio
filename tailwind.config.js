@@ -19,17 +19,17 @@ module.exports = {
   },
   plugins: [],
   rules: [
-    {
-      test: /\.(png|jpe?g|gif)$/i,
-      use: [
-        {
-          loader: 'url-loader',
-          options: {
-            limit: 8192, // Set the limit to 8 KiB (or any other value)
-          },
-        },
-      ],
-    }
+    // {
+    //   test: /\.(png|jpe?g|gif)$/i,
+    //   use: [
+    //     {
+    //       loader: 'url-loader',
+    //       options: {
+    //         limit: 8192, // Set the limit to 8 KiB (or any other value)
+    //       },
+    //     },
+    //   ],
+    // }
   ],
 }
 

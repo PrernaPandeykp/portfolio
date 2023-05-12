@@ -11,10 +11,10 @@ function Projects(props) {
           <div class="container px-5 py-8 mx-auto">
             <div class="shadow-lg flex flex-wrap -m-4 p-10">
               {projects.map((project, index) => (
-                <div class=" p-4 md:w-1/3 " key={index}>
-                  <div class="shadow-lg bg-light h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                <div class=" p-4 md:w-1/3" key={index}>
+                  <div class="bg-light hover:shadow-lg h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                     <img
-                      class="lg:h-48 md:h-36 w-full object-cover object-center rounded"
+                      class="lg:h-48 md:h-36 w-full object-cover object-center rounded-t"
                       src={project.image}
                       alt="blog"
                     />
@@ -32,8 +32,8 @@ function Projects(props) {
                       <div>
                       
                       </div>
-                      <div className="flex items-center">
-                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3 mr-60">
+                      <div className="flex items-center justify-between mb-4">
+                      <h1 class="title-font text-lg font-medium text-gray-900 ">
                         {project.name}
                         </h1>
                         <a
