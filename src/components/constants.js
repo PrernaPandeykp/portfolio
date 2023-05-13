@@ -11,10 +11,13 @@ import react from './images/react.png';
 import sql from './images/sql.webp';
 import cpp from './images/cpp.png';
 import javascript from './images/js.png';
+import accenture from './images/accenture.png';
+import wipro from './images/wipro.svg';
+import tzi from './images/tzi.jpg';
 
 export const skills= [
     {
-      name: "Bakend Developer",
+      name: "Backend",
       image: backend,
     },
     {
@@ -61,24 +64,28 @@ export const projects=[
       image: chatbot,
       description: "Build Application using Flask Framework, Text and Voice feature.",
       technologies: ["Flask", "ML"],
+      github: "https://github.com/PrernaPandeykp/chatbot"
     },
     {
       name: "TodoList",
       image: todo,
       description: " A Todolist which displays your tasks in form in completed and Pending tasks.",
       technologies: ["Django"],
+      github: "https://github.com/PrernaPandeykp/todoApp-react-django"
     },
     {
       name: "MLapp",
       image: mlapp,
       description: "Web Application made by Streamlit, predicts best Model between two models.",
       technologies: ["ML", "Streamlit"],
+      github: "https://github.com/PrernaPandeykp/prediction_app"
     },
   ];
 
 export const internships=[
     {
       role: "Developer Virtual Experience Program",
+      image: accenture,
       company: "Accenture",
       duration :"6 Months",
       mode: "Virtual",
@@ -86,6 +93,7 @@ export const internships=[
     }, 
     {
       role: "Wipro Talent Next & Future Skills Program",
+      image: wipro,
       company: "Wipro",
       duration :"6 Months",
       mode: "Virtual",
@@ -93,6 +101,7 @@ export const internships=[
     }, 
     {
       role: "Web Developer",
+      image: tzi,
       company: "TZi Solutions",
       duration :"2 Months",
       mode: "Hybrid",

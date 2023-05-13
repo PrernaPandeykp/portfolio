@@ -2,12 +2,15 @@ import React from "react";
 import { useState } from "react";
 // import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 
-
 import Internships from "./Internships";
 import Projects from "./Projects";
 import Skills from "./Skills";
 import { projects, skills, internships } from "./constants";
 import prerna from "./images/prerna.jpg";
+import home from "./images/home.png";
+import internship from "./images/internship.png";
+import skill from "./images/skills.png";
+import project from "./images/projects.png";
 import gmail from "./images/gmail.svg";
 
 function Home() {
@@ -25,87 +28,56 @@ function Home() {
 
   return (
     <>
-
       <div className="bg-light">
-        
         {/* // <div class='py-3 title bg-transparent bgstyle text-light min-vh-100 d-flex align-content-center align-items-center flex-wrap m-0" style="background: linear-gradient(136deg, rgb(68, 132, 206), rgb(26, 215, 192), rgb(255, 155, 17), rgb(155, 89, 182), rgb(255, 127, 127), rgb(236, 240, 241)) 0% 0% / 1200% 1200%;"'> */}
         <section class="sticky top-0 text-gray-600 body-font bg-white">
           <div class="container px-auto py-6 mx-auto flex flex-wrap flex-col">
             <div class="flex mx-auto flex-wrap ">
-              <button >
+              <button>
                 <a
                   href="#"
-                  class="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium bg-gray-100 inline-flex items-center leading-none border-indigo-500 text-indigo-500 tracking-wider rounded-t"
+                  class="sm:px-6 py-3 w-1/2 sm:w-auto hover:bg-gray-200 justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none tracking-wider rounded-t"
                 >
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-5 h-5 mr-3"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                  </svg>
+                  <img class="w-5 h-5 mr-3" src={home} />
                   Home
                 </a>
               </button>
               <button>
                 <a
                   href="#skills"
-                  class="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none border-gray-200 hover:text-gray-900 tracking-wider"
+                  class="sm:px-6 py-3 w-1/2 sm:w-auto hover:bg-gray-200 justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none tracking-wider rounded-t"
                 >
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-5 h-5 mr-3"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                  </svg>
+                  <img class="w-5 h-5 mr-3" src={skill} />
                   Skills
                 </a>
               </button>
               <button>
                 <a
                   href="#projects"
-                  class="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none border-gray-200 hover:text-gray-900 tracking-wider"
+                  class="sm:px-6 py-3 w-1/2 sm:w-auto hover:bg-gray-200 justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none tracking-wider rounded-t"
                 >
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-5 h-5 mr-3"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-                  </svg>
+                  <img class="w-5 h-5 mr-3" src={project} />
                   Projects
                 </a>
               </button>
               <button>
                 <a
                   href="#internships"
-                  class="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none border-gray-200 hover:text-gray-900 tracking-wider"
+                  class="sm:px-6 py-3 w-1/2 sm:w-auto hover:bg-gray-200 justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none tracking-wider rounded-t"
                 >
-                  <svg
+                  {/* <svg
                     fill="none"
                     stroke="currentColor"
                     stroke-linecap="round"
                     stroke-linejoin="round"
                     stroke-width="2"
-                    class="w-5 h-5 mr-3"
+                    
                     viewBox="0 0 24 24"
                   >
                     <circle cx="12" cy="5" r="3"></circle>
                     <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
-                  </svg>
+                  </svg> */}
+                  <img class="w-5 h-5 mr-3" src={internship} />
                   Internships
                 </a>
               </button>
@@ -177,67 +149,51 @@ function Home() {
                       ></path>
                     </svg>
                   </a>
-                  {/* <a
-                    aria-label="LinkedIn"
-                    class="-m-1.5 rounded-md p-1.5 transition-all duration-300 hover:text-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-500 sm:-m-3 sm:p-3"
-                    href="https://mail.google.com/"
-                  > */}
-                    
-                    {/* <svg
-                      class="h-5 w-5 align-baseline sm:h-6 sm:w-6"
-                      fill="currentColor"
-                      viewBox="0 0 128 128"
-                      width="128"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path fill="currentColor" d="M23.22 5.75a2.68 2.68 0 0 1-.23.87l-8 13a2.7 2.7 0 0 1-2.45 1.38h-.14a2.7 2.7 0 0 1-2.45-1.38l-8-13a2.64 2.64 0 0 1-.23-.87 2.79 2.79 0 0 1 .23-1l2.2-3.59A3 3 0 0 1 4.65 2h14.7a3 3 0 0 1 2.45 1.16l2.2 3.59a2.79 2.79 0 0 1 .23 1z"/>
-    <path fill="currentColor" d="M21.25 0H2.75A2.75 2.75 0 0 0 0 2.75v18.5A2.75 2.75 0 0 0 2.75 24h18.5A2.75 2.75 0 0 0 24 21.25V2.75A2.75 2.75 0 0 0 21.25 0z"/>
-                    </svg> */}
-                   {/* <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 96 960 960" width="48"><path d="M140 896q-24 0-42-18t-18-42V316q0-24 18-42t42-18h680q24 0 42 18t18 42v520q0 24-18 42t-42 18H140Zm340-302L140 371v465h680V371L480 594Zm0-60 336-218H145l335 218ZM140 371v-55 520-465Z"/></svg>
-                  </a>
-                  <a href="https://mail.google.com/">
-  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 align-baseline sm:h-6 sm:w-6"
-                      fill="currentColor"
-                      
-                      width="128">
-    <path fill="currentColor" d="M23.22 5.75a2.68 2.68 0 0 1-.23.87l-8 13a2.7 2.7 0 0 1-2.45 1.38h-.14a2.7 2.7 0 0 1-2.45-1.38l-8-13a2.64 2.64 0 0 1-.23-.87 2.79 2.79 0 0 1 .23-1l2.2-3.59A3 3 0 0 1 4.65 2h14.7a3 3 0 0 1 2.45 1.16l2.2 3.59a2.79 2.79 0 0 1 .23 1z"/>
-    <path fill="currentColor" d="M21.25 0H2.75A2.75 2.75 0 0 0 0 2.75v18.5A2.75 2.75 0 0 0 2.75 24h18.5A2.75 2.75 0 0 0 24 21.25V2.75A2.75 2.75 0 0 0 21.25 0z"/>
-  </svg>
-</a> */}
+                  
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        <section className="container pt-24 px-5 py-12 mx-auto"  id="skills">
+        <section className="container pt-24 px-5 py-12 mx-auto" id="skills">
           <h1 className="text-6xl text-center mb-4">
-          {/* <span className="block before:bg-gray-300 before:absolute before:inset-y-0 before:left-0 before:w-1 before:rounded-full after:bg-gray-300 after:absolute after:inset-y-0 after:right-0 after:w-1 after:rounded-full">&nbsp;</span> */}
-          What i like to do.
+            {/* <span className="block before:bg-gray-300 before:absolute before:inset-y-0 before:left-0 before:w-1 before:rounded-full after:bg-gray-300 after:absolute after:inset-y-0 after:right-0 after:w-1 after:rounded-full">&nbsp;</span> */}
+            What i like to do.
           </h1>
           {/* <div className=""> */}
-            <Skills skills={skills} />
+          <Skills skills={skills} />
           {/* </div> */}
         </section>
         <section className="container px-5 py-24 mx-auto" id="projects">
-        <h1 className="text-6xl text-center mb-8">MY RECENT WORK</h1>
+          <h1 className="text-6xl text-center mb-8">MY RECENT WORK</h1>
           <div className="">
             <Projects projects={projects} />
           </div>
         </section>
-        <section className="container px-5 py-24 mx-auto mb-12" id="internships">
-        <h1 className="text-6xl text-center mb-16">INTERNSHIPS</h1>
+        <section
+          className="container px-5 py-24 mx-auto mb-12"
+          id="internships"
+        >
+          <h1 className="text-6xl text-center mb-16">INTERNSHIPS</h1>
           <div className="">
             <Internships internships={internships} />
           </div>
         </section>
 
-        <div className={`fixed bottom-16 right-16 transition-all duration-500 ${isVisible ? "opacity-100" : "opacity-0"} ${isVisible ? "pointer-events-auto" : "pointer-events-none"}`}>
-      <button onClick={handleClick} className=" bg-gray-800 text-white w-12 h-12 text-4xl font-bold rounded-full p-2 focus:outline-none shadow-lg hover:shadow-4xl">
-        {/* <faArrowUp class="h-64 w-64" /> */}
-        &uarr;
-      </button>
-    </div>
+        <div
+          className={`fixed bottom-16 right-16 transition-all duration-500 ${
+            isVisible ? "opacity-100" : "opacity-0"
+          } ${isVisible ? "pointer-events-auto" : "pointer-events-none"}`}
+        >
+          <button
+            onClick={handleClick}
+            className=" bg-gray-800 text-white w-12 h-12 text-4xl font-bold rounded-full focus:outline-none shadow-lg hover:shadow-xl"
+          >
+            {/* <faArrowUp class="h-64 w-64" /> */}
+            &uarr;
+          </button>
+        </div>
 
         {/* {isSectionActive("skills") && (
               <div>
@@ -267,8 +223,7 @@ function Home() {
 
 export default Home;
 
-
-  /* {section === 'section1' && <div>
+/* {section === 'section1' && <div>
           <h2>Skills</h2>
                   <ul></ul>
                   </div>} 
@@ -282,7 +237,7 @@ export default Home;
 //   </div>
 // )}
 
-  /*         
+/*         
         {section === 'section1' && <Section1 />} 
       {section === 'section2' && <Section2 />} 
       {section === 'section3' && <Section3 />}  */

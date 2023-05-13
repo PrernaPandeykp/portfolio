@@ -14,11 +14,13 @@ const Skills = (props) => {
       {/* {groups.map((group, i) => ( */}
         <div className="flex flex-wrap justify-center p-10">
           {skills.map((item) => (
-            <div key={item.name} className="shadow-lg m-6 bg-slate p-6 rounded">
-              <div className="w-24 h-24 rounded-full overflow-hidden">
+            <div key={item.name} className="shadow-lg m-6 bg-slate p-6 rounded w-30">
+              <div className=" w-24 h-24 rounded-full overflow-hidden">
                 <img src={item.image} alt={item.name} className="object-cover w-full h-full" />
               </div>
-              <div className="mt-2 text-center">{item.name}</div>
+              <div className="mt-2 text-center">
+                <h3 className='text-gray-600 font-medium title-font'>{item.name}</h3>
+              </div>
             </div>
           ))}
         </div>
