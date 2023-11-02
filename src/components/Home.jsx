@@ -102,8 +102,7 @@ function Home() {
                   I'm Prerna Pandey.
                 </h1>
                 <p class="lg:w-2/3 mx-auto mb-10 leading-relaxed text-neutral-50 text-xl">
-                  I'm Python and Web Developer, currently persuing BTech from
-                  KIET Group of Institutions with specialisation Information
+                  I'm Python and Web Developer, currently working in Accenture on ServiceNow, have completed Bachelor's Degree with Information
                   Technology.
                 </p>
                 <div

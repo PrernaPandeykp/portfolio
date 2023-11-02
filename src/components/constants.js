@@ -33,6 +33,10 @@ export const skills= [
       image: cpp,
     },
     {
+      name: "ServiceNow",
+      image: servicenow,
+    },
+    {
       name: "PostgreSQL",
       image: postgres,
     },
