@@ -5,9 +5,11 @@ import { useState } from "react";
 import Internships from "./Internships";
 import Projects from "./Projects";
 import Skills from "./Skills";
-import { projects, skills, internships } from "./constants";
+import WorkExperience from "./WorkExperience";
+import { projects, skills, internships, works } from "./constants";
 import prerna from "./images/prerna.jpg";
 import home from "./images/home.png";
+import work from "./images/work.jpg";
 import internship from "./images/internship.png";
 import skill from "./images/skills.png";
 import project from "./images/projects.png";
@@ -53,6 +55,15 @@ function Home() {
               </button>
               <button>
                 <a
+                  href="#works"
+                  class="sm:px-6 py-3 w-1/2 sm:w-auto hover:bg-gray-200 justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none tracking-wider rounded-t"
+                >
+                  <img class="w-5 h-5 mr-3" src={work} />
+                  Work Experience
+                </a>
+              </button>
+              <button>
+                <a
                   href="#projects"
                   class="sm:px-6 py-3 w-1/2 sm:w-auto hover:bg-gray-200 justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none tracking-wider rounded-t"
                 >
@@ -84,7 +95,8 @@ function Home() {
             </div>
           </div>
         </section>
-        {/* Home */}
+
+{/* -----------------------------------------HOME-----------------------------------------------------         */}
         <section id="#home" className="mt-12">
           <div class="container px-5 mx-auto flex flex-wrap flex-col">
             <div class="shadow-lg flex mx-auto flex-wrap p-20 bg-home1 rounded">
@@ -154,7 +166,7 @@ function Home() {
             </div>
           </div>
         </section>
-
+{/* -----------------------------------------SKILLS-----------------------------------------------------         */}
         <section className="container pt-24 px-5 py-12 mx-auto" id="skills">
           <h1 className="text-6xl text-center mb-4">
             {/* <span className="block before:bg-gray-300 before:absolute before:inset-y-0 before:left-0 before:w-1 before:rounded-full after:bg-gray-300 after:absolute after:inset-y-0 after:right-0 after:w-1 after:rounded-full">&nbsp;</span> */}
@@ -164,12 +176,23 @@ function Home() {
           <Skills skills={skills} />
           {/* </div> */}
         </section>
+{/* -----------------------------------------WORK-----------------------------------------------------         */}
+        <section className="container px-5 py-24 mx-auto" id="works">
+          <h1 className="text-6xl text-center mb-8">WORK Experience</h1>
+          <div className="">
+            <WorkExperience works={works} />
+          </div>
+        </section>
+
+{/* -----------------------------------------Projects-----------------------------------------------------         */}
         <section className="container px-5 py-24 mx-auto" id="projects">
           <h1 className="text-6xl text-center mb-8">MY RECENT WORK</h1>
           <div className="">
             <Projects projects={projects} />
           </div>
         </section>
+
+{/* -----------------------------------------INTERNSHIPS-----------------------------------------------------         */}
         <section
           className="container px-5 py-24 mx-auto mb-12"
           id="internships"
