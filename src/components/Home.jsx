@@ -114,8 +114,11 @@ function Home() {
                   I'm Prerna Pandey.
                 </h1>
                 <p class="lg:w-2/3 mx-auto mb-10 leading-relaxed text-neutral-50 text-xl">
-                  I'm Python and Web Developer, currently working in Accenture on ServiceNow, have completed Bachelor's Degree with Information
-                  Technology.
+                  I am a passionate software developer currently working as a Software Engineering Analyst at Accenture, 
+                  contributing to the Genentech project within the Foundry ecosystem, where I focus on backend development and platform integrations. 
+                  I hold a Bachelor of Technology in Information Technology with a CGPA of 8.2. 
+                  I am deeply interested in scalable distributed systems, artificial intelligence, and solving complex real-world problems, 
+                  and I continuously enhance my skills through learning and regular problem-solving practice.
                 </p>
                 <div
                   class="flex lg:w-1/8 mx-auto gap-x-3 mb-5 text-neutral-100"

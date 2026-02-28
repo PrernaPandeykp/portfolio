@@ -19,6 +19,13 @@ import bootstrap from './images/bootstrap.jpg';
 import mongodb from './images/mongodb.jpg';
 import tailwind from './images/tailwind.jpg';
 import angularjs from './images/angularjs.jpg';
+import genetechRoche from './images/genentechRoche.jpg'
+import api from './images/api.png'
+import cloud from './images/cloud.png'
+import debug from './images/debug.png'
+import palantir from './images/palantir.jpg'
+import typescript from './images/typescript.jpg'
+import pipelines from './images/pipelines.png'
 
 export const skills = [
   {
@@ -34,17 +41,16 @@ export const skills = [
     image: python,
   },
   {
-    name: "CPP",
-    image: cpp,
+    name: "Palantir",
+    image: palantir,
   },
-  {
-    name: "ServiceNow",
-    image: servicenow,
-  },
-
   {
     name: "ReactJs",
     image: react,
+  },
+  {
+    name: "Typescript",
+    image: typescript,
   },
   {
     name: "Javascript",
@@ -57,6 +63,30 @@ export const skills = [
   {
     name: "SQL",
     image: sql,
+  },
+   {
+    name: "Data Pipelines",
+    image: pipelines,
+  },
+  {
+    name: "Devops",
+    image: cloud,
+  },
+  {
+    name: "Debugging",
+    image: debug,
+  },
+  {
+    name: "API Development",
+    image: api,
+  },
+  {
+    name: "CPP",
+    image: cpp,
+  },
+  {
+    name: "ServiceNow",
+    image: servicenow,
   },
   {
     name: "MongoDB",
@@ -89,16 +119,22 @@ export const skills = [
 export const works = [
   {
     company: "Accenture",
-    role: "Packaged Application Development Associate",
-    skills: ["JavaScript", "AngularJS"],
-    date_of_joining: "06/07/2024",
-    description: "I have achieved the ServiceNow Certified System Administrator Certification, which attests to my expertise and proficiency in managing and configuring the ServiceNow environment. In addition to my ServiceNow skills, I have completed training in ReactJS, AngularJS, MongoDB which broadens my technical capabilities and enables me to integrate various technologies",
+    role: "Software Engineering Analyst",
+    skills: ["Python", "TypeScript", "SQL", "Cloud", "Pipelines", "JavaScript", "AngularJS"],
+    date_of_joining: "06/07/2023",
+    description: "I’m a backend-focused developer at Accenture, currently working in the Data & AI domain for Roche. My work involves building backend services using Python and TypeScript, working with SQL, developing data pipelines, and supporting CI/CD and deployment processes. I’ve also gained exposure to scalable API development and distributed systems concepts",
     image: accenture,
 
   },
 ];
 
 export const projects = [
+  {
+    name: "FOAC - Genentech(Roche)",
+    image: genetechRoche,
+    description: "My role focuses on developing backend endpoints within the Foundry ecosystem, emphasizing Ontology, OSDK, and code repositories. I specialize in Python and TypeScript, adapting to TypeScript for development while leveraging my PySpark expertise. Additionally, I have gained familiarity with Pipeline Builder and Workshop, expanding my understanding of Foundry’s capabilities.",
+    technologies: ["Python", "TypeScript", "Plantir Foundry", "CLoud", "Devops", "SQL", "Data Pipelines"],
+  },
   {
     name: "ChatBot",
     image: chatbot,
