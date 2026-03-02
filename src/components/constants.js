@@ -132,15 +132,22 @@ export const projects = [
   {
     name: "FOAC - Genentech(Roche)",
     image: genetechRoche,
-    description: "My role focuses on developing backend endpoints within the Foundry ecosystem, emphasizing Ontology, OSDK, and code repositories. I specialize in Python and TypeScript, adapting to TypeScript for development while leveraging my PySpark expertise. Additionally, I have gained familiarity with Pipeline Builder and Workshop, expanding my understanding of Foundry’s capabilities.",
+    description: "Focused on developing backend endpoints within the Foundry ecosystem, working with Ontology, OSDK, and code repositories. Primarily use TypeScript and Python, leveraging PySpark expertise, and have hands-on experience with Pipeline Builder and Workshop to build and manage data workflows.",
     technologies: ["Python", "TypeScript", "Plantir Foundry", "CLoud", "Devops", "SQL", "Data Pipelines"],
   },
   {
     name: "ChatBot",
     image: chatbot,
-    description: "Build Application using Flask Framework, Text and Voice feature.",
+    description: "Built and deployed an intent-based chatbot using Python, TensorFlow/Keras, and NLTK with a bag-of-words NLP pipeline. Integrated with Flask web interface.",
     technologies: ["Flask", "ML"],
     github: "https://github.com/PrernaPandeykp/chatbot"
+  },
+  {
+    name: "MLapp",
+    image: mlapp,
+    description: "built a Prediction App using Python, Streamlit, and TensorFlow/Keras for stock market forecasting. The app uses ARIMA for classical time series prediction and LSTM networks for capturing long-term patterns. Users can interact with the app via a web interface to input data, visualize predictions, and compare model performance, with Pandas, NumPy, and Matplotlib handling data processing and visualization..",
+    technologies: ["ML", "Streamlit"],
+    github: "https://github.com/PrernaPandeykp/prediction_app"
   },
   {
     name: "TodoList",
@@ -148,14 +155,7 @@ export const projects = [
     description: " A Todolist which displays your tasks in form in completed and Pending tasks.",
     technologies: ["Django"],
     github: "https://github.com/PrernaPandeykp/todoApp-react-django"
-  },
-  {
-    name: "MLapp",
-    image: mlapp,
-    description: "Web Application made by Streamlit, predicts best Model between two models.",
-    technologies: ["ML", "Streamlit"],
-    github: "https://github.com/PrernaPandeykp/prediction_app"
-  },
+  }
 ];
 
 export const internships = [

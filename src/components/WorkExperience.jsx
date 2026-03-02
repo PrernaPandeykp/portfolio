@@ -8,12 +8,13 @@ const WorkExperience = (props) => {
         <div class="container px-5 mx-auto">
           <div class="shadow-lg bg-white flex flex-wrap -m-4 p-10">
             {works.map((work, index) => (
-              <div class="xl:w-1/3 md:w-1/2 p-4" key={index}>
+              <div class="w-full mb-6" key={index}>
                 <div class="shadow-lg border border-gray-200 p-6 rounded-lg bg-white">
                   <div class="inline-flex items-center justify-center text-indigo-500 mb-4">
                     <img
                       src={work.image}
                       className="w-8 h-8 object-contain mr-2"
+                      alt="Works img"
                     />
                     {work.company}
                   </div>

@@ -15,7 +15,7 @@ const Skills = (props) => {
         <div className="flex flex-wrap justify-center p-10">
           {skills.map((item) => (
             <div key={item.name} className="shadow-lg m-6 bg-slate p-6 rounded w-30">
-              <div className=" w-24 h-24 rounded-full overflow-hidden">
+              <div className="w-16 h-16 rounded-full overflow-hidden mx-auto">
                 <img src={item.image} alt={item.name} className="object-cover w-full h-full" />
               </div>
               <div className="mt-2 text-center">

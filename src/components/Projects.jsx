@@ -11,7 +11,7 @@ function Projects(props) {
           <div class="container px-5 py-8 mx-auto">
             <div class="shadow-lg flex flex-wrap -m-4 p-10">
               {projects.map((project, index) => (
-                <div class=" p-4 md:w-1/3" key={index}>
+                <div class="xl:w-1/3 md:w-1/2 p-4" key={index}>
                   <div class="bg-light hover:shadow-lg h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                     <img
                       class="lg:h-48 md:h-36 w-full object-cover object-center rounded-t"
@@ -21,13 +21,10 @@ function Projects(props) {
                     <div class="p-6">
                      
                       <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
-                        <ul>
-                          {project.technologies.map((tech, index) => (
-                            <li key={index}>{tech}</li>
-                          ))}
-                        </ul>
-                        
-
+                        <p className="text-gray-500 text-sm">
+                        <span className="font-medium">Techs:</span>{" "}
+                        {project.technologies.join(", ")}
+                      </p>
                       </h2>
                       <div>
                       
