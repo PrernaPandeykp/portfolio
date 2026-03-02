@@ -99,7 +99,7 @@ function Home() {
 {/* -----------------------------------------HOME-----------------------------------------------------         */}
         <section id="home" className="mt-12">
           <div class="container px-5 mx-auto flex flex-wrap flex-col">
-            <div class="shadow-lg flex mx-auto flex-wrap p-20 bg-home1 rounded">
+            <div class="shadow-lg flex mx-auto flex-wrap p-24 bg-home1 rounded">
               <img
                 // class="block m-auto rounded-full object-cover"
                 class="w-24 h-24 block mx-auto mt-5 rounded-full object-cover"
@@ -109,17 +109,8 @@ function Home() {
               />
               {/* <div id="home" class="py-3 title bg-transparent bgstyle text-light min-vh-100 d-flex align-content-center align-items-center flex-wrap m-0" style="background: linear-gradient(136deg, rgb(68, 132, 206), rgb(26, 215, 192), rgb(255, 155, 17), rgb(155, 89, 182), rgb(255, 127, 127), rgb(236, 240, 241)) 0% 0% / 1200% 1200%;"><div class="container py-5"><div id="stars"></div><div class="text-center container"><h1 class="display-1">Hashir  Shoaib</h1><div class="lead typist"> Passionate about changing the world with technology. </div><div class="p-5"><a target="_blank" rel="noopener noreferrer" href="https://github.com/hashirshoaeb" aria-label="My github"><i class="fab fa-github  fa-3x socialicons"></i></a><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/hashirshoaeb" aria-label="My facebook"><i class="fab fa-facebook  fa-3x socialicons"></i></a><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/hashirshoaeb/" aria-label="My instagram"><i class="fab fa-instagram  fa-3x socialicons"></i></a><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/hashirshoaeb/" aria-label="My linkedin"><i class="fab fa-linkedin  fa-3x socialicons"></i></a><a target="_blank" rel="noopener noreferrer" href="https://www.twitter.com/hashirshoaeb/" aria-label="My twitter"><i class="fab fa-twitter  fa-3x socialicons"></i></a></div><a class="btn btn-outline-light btn-lg " href="#aboutme" role="button" aria-label="Learn more about me">More about me</a></div></div></div> */}
               <div class="flex flex-col text-center w-full">
-                {/* <div class='py-3 title bg-transparent bgstyle text-light min-vh-100 d-flex align-content-center align-items-center flex-wrap m-0" style="background: linear-gradient(136deg, rgb(68, 132, 206), rgb(26, 215, 192), rgb(255, 155, 17), rgb(155, 89, 182), rgb(255, 127, 127), rgb(236, 240, 241)) 0% 0% / 1200% 1200%;"'> */}
-                <h1 class="text-5xl font-bold title-font mb-4 text-gray-900">
-                  I'm Prerna Pandey.
-                </h1>
-                <p class="w-full mb-10 leading-relaxed text-neutral-50 text-xl px-5">
-                  I’m a Software Engineering Analyst at Accenture, contributing to the Genentech project within the Foundry ecosystem with a focus on backend development and platform integrations.
-                   I hold a B.Tech in Information Technology (CGPA 8.2) and am passionate about scalable systems, AI, 
-                  and solving real-world problems through continuous learning and problem-solving.
-                </p>
                 <div
-                  class="flex lg:w-1/8 mx-auto gap-x-3 mb-5 text-neutral-100"
+                  class="flex lg:w-1/8 mx-auto gap-x-3 mb-5 text-neutral-100 p-4"
                   // class="flex flex-col text-center w-full"
                 >
                   <a
@@ -196,14 +187,23 @@ function Home() {
                     <path d="M14 24v80h20V48l30 22 30-22v56h20V24L64 60 14 24z"/>
                   </svg>
                   </a>
-                  
                 </div>
+                {/* <div class='py-3 title bg-transparent bgstyle text-light min-vh-100 d-flex align-content-center align-items-center flex-wrap m-0" style="background: linear-gradient(136deg, rgb(68, 132, 206), rgb(26, 215, 192), rgb(255, 155, 17), rgb(155, 89, 182), rgb(255, 127, 127), rgb(236, 240, 241)) 0% 0% / 1200% 1200%;"'> */}
+                <h1 class="text-5xl font-bold title-font mb-4 text-gray-900">
+                  I'm Prerna Pandey.
+                </h1>
+                <p class="w-full mb-10 leading-relaxed text-neutral-50 text-xl px-5">
+                  I’m a Software Engineering Analyst at Accenture, contributing to the Genentech project within the Foundry ecosystem with a focus on backend development and platform integrations.
+                   I hold a B.Tech in Information Technology (CGPA 8.2) and am passionate about scalable systems, AI, 
+                  and solving real-world problems through continuous learning and problem-solving.
+                </p>
+                
               </div>
             </div>
           </div>
         </section>
 {/* -----------------------------------------SKILLS-----------------------------------------------------         */}
-        <section className="container pt-24 px-5 py-12 mx-auto" id="skills">
+        <section className="container px-5 py-24 mx-auto" id="skills">
           <h1 className="text-6xl text-center mb-4">
             {/* <span className="block before:bg-gray-300 before:absolute before:inset-y-0 before:left-0 before:w-1 before:rounded-full after:bg-gray-300 after:absolute after:inset-y-0 after:right-0 after:w-1 after:rounded-full">&nbsp;</span> */}
             SKILLS
